@@ -1,0 +1,13 @@
+<h1>Punti 1 e 2</h1>
+<div *ngFor="let o of oggetti">
+  {{o.numero}}
+  {{o.nome}}
+</div>
+
+<h1>Punto 3</h1>
+<span [class]="var2">{{var1}}</span>
+<br>
+<button (click)="var1 = var1 + ' :)'">Click me</button>
+<br>
+<input type="text" [(ngModel)]="var3">
+<p>Testo input-text: {{var3}}</p>
