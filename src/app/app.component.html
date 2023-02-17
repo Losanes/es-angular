@@ -1,5 +1,6 @@
 <h1>Punti 1 e 2</h1>
 <div *ngFor="let o of oggetti">
+  <!-- o che passa al componente (guardare su classroom) -->
   {{o.numero}}
   {{o.nome}}
 </div>
@@ -11,3 +12,5 @@
 <br>
 <input type="text" [(ngModel)]="var3">
 <p>Testo input-text: {{var3}}</p>
+
+<!-- fare un comp figlio che occupa ad indirizzare ogni singolo nano-->
